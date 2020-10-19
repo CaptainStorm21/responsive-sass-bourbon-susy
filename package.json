@@ -1,0 +1,25 @@
+{
+  "name": "responsive-sass-bourbon-susy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaptainStorm21/responsive-sass-bourbon-susy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaptainStorm21/responsive-sass-bourbon-susy/issues"
+  },
+  "homepage": "https://github.com/CaptainStorm21/responsive-sass-bourbon-susy#readme",
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.1.0",
+    "load-grunt-tasks": "^5.1.0"
+  }
+}

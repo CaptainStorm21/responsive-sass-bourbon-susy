@@ -1,0 +1,22 @@
+{
+  "name": "responsive-sass-bourbon-susy",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Captain Storm <CaptainStorm21@users.noreply.github.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/CaptainStorm21/responsive-sass-bourbon-susy",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bourbon": "^7.0.0",
+    "susy": "^3.0.6",
+    "normalize-css": "^8.0.1"
+  }
+}
