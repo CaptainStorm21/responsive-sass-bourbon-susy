@@ -1,29 +1,25 @@
-//the wrapper function 
+const sass = require('node-sass');
 
-module.exports = function(grunt) {
-
-    // Project configuration.
+module.exports = function (grunt) {
     grunt.initConfig({
-      pkg: grunt.file.readJSON('package.json'),
-      uglify: {
-        options: {
-          banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
-        },
-        build: {
-          src: 'src/<%= pkg.name %>.js',
-          dest: 'build/<%= pkg.name %>.min.js'
+        pkg: grunt.file.readJSON('package.json'),
+
+        sass: {
+            options: {
+                implementation: sass, 
+                sourceMap: true
+            },
+            dist: {
+                files: {
+                    'css/styles.css' : 'asset/scss/styles.scss'
+                }
+            }
         }
-      }
     });
-  
-    // Load the plugin that provides the "uglify" task.
-    // grunt.loadNpmTasks('grunt');
 
-    //Loads all grunt libraries
+    //loading grunt
     require ('load-grunt-tasks')(grunt);
-  
-    // Default task(s).
-    grunt.registerTask('default', []);
-  
-  };
 
+    //custom tasks
+    grunt.registerTask ('default', ['sass']);
+}
