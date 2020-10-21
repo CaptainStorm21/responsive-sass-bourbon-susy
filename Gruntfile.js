@@ -28,6 +28,28 @@ module.exports = function (grunt) {
                  tasks:[
                      'sass'
                  ]
+             },
+             scripts: {
+                 files: [
+                     'asset/js/*.js'
+                 ],
+                 tasks:[
+                     'uglify'
+                 ]
+             }
+         },
+         /**
+          * grunt uglify 
+          * minify js scripts
+          */
+         uglify:{
+             my_target: {
+                 files: {
+                     'js/script.js': [
+                         'asset/js/scripts.js',
+                         'node_modules/jquery/dist/jquery.min.js'
+                        ]
+                 }
              }
          }
     });
