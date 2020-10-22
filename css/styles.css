@@ -303,4 +303,34 @@ template {
 [hidden] {
   display: none; }
 
+/* color palette SCSS RGB */
+nav {
+  padding: 5px;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 0px; }
+  nav ul {
+    list-style: none; }
+  nav li {
+    display: inline-block; }
+  nav a {
+    padding: 0 10px;
+    text-decoration: none !important; }
+    nav a:hover {
+      color: #100325;
+      background-color: #e6c229;
+      padding: 10px;
+      border-radius: 10px; }
+
+.social-menu {
+  background-color: #100325; }
+  .social-menu a {
+    color: #e6c229; }
+
+.header-nav a {
+  color: white; }
+
+.header-nav {
+  background-color: #d11149; }
+
 /*# sourceMappingURL=styles.css.map */

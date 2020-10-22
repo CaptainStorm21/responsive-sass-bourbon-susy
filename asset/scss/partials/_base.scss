@@ -1,0 +1,25 @@
+nav{
+    padding: 5px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 0px;
+
+    ul{
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    a {
+        padding: 0 10px;
+        text-decoration: none !important; 
+        &:hover{
+            color: $indigo;
+            background-color: $sunflower;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    }
+}

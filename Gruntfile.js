@@ -23,7 +23,7 @@ module.exports = function (grunt) {
          watch: {
              sass: {
                  files: [
-                     'asset/scss/*.scss'
+                     'asset/scss/**/*.scss'
                  ],
                  tasks:[
                      'sass'
@@ -48,6 +48,7 @@ module.exports = function (grunt) {
                      'js/script.js': [
                          'asset/js/scripts.js',
                          'node_modules/jquery/dist/jquery.min.js'
+
                         ]
                  }
              }
