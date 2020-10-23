@@ -394,4 +394,23 @@ nav {
 .header-nav {
   background-color: #d11149; }
 
+.feature img {
+  height: auto;
+  width: 350px;
+  border-radius: 20px; }
+
+.customer img {
+  height: 350px;
+  width: 350px;
+  border-radius: 20px; }
+
+.hero .overlay {
+  background-color: rgba(16, 3, 37, 0.8);
+  padding: 10px;
+  margin-top: 10px; }
+
+.hero {
+  text-align: center;
+  color: white; }
+
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,21 @@
+
+.feature img{
+    @include size(350px, auto);
+    border-radius: $round;
+}
+
+.customer img{
+    @include size(350px);
+    border-radius: $round;
+}
+
+.hero .overlay{
+    background-color: rgba($indigo, .8);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.hero {
+    text-align: center;
+    color: white;
+}
