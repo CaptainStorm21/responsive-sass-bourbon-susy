@@ -1,7 +1,78 @@
+
+body {
+    font-family: $poppins;
+    padding-right: 2%;
+    padding-left: 2%;
+    color: $indigo;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: $praga;
+    color: $sky-blue;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 18px;
+}
+//Forms
+#{$all-text-inputs}{
+    border: 3px solid $pumkin;
+    padding: 8px;
+    
+}
+
+#{$all-text-inputs-focus},
+#{$all-text-inputs-hover},
+#{$all-text-inputs-active}{
+    border: 3px solid $sky-blue;
+    padding: 8px;
+    background-color: $sunflower;
+
+}
+
+//buttons 
+#{$all-buttons}{
+    background-color: $sunflower;
+    color: $indigo;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#{$all-buttons-focus},
+#{$all-buttons-hover}
+{
+    background-color: $indigo;
+    color: $sunflower;
+    font-size: 14px;
+    padding: 10px;
+}
+
+#{$all-buttons-active}{
+    background-color: $spanish-carmine;
+    color: $sunflower;
+    font-size: 14px;
+    padding: 10px;
+}
+
+
 nav{
     padding: 5px;
     font-weight: 400;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $poppins;
     border-radius: 0px;
 
     ul{
@@ -22,4 +93,11 @@ nav{
             border-radius: 10px;
         }
     }
+}
+
+
+
+
+.wrapper{
+    background-color: lightgray;
 }
