@@ -1,11 +1,11 @@
 
 .feature img{
-    @include size(350px, auto);
+    @include size(300px, auto);
     border-radius: $round;
 }
 
 .customer img{
-    @include size(350px);
+    @include size(300px);
     border-radius: $round;
 }
 
